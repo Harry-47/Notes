@@ -1,0 +1,100 @@
+Big O basics
+Time complexity:
+O(1) constant
+O(log n) binary search
+O(n) linear scan
+O(n log n) merge sort / heap sort
+O(n²) nested loops
+
+Space complexity matters too. Many interviews ask for optimized space.
+
+Arrays
+When to use: fixed-size data, fast access
+Key patterns:
+Two pointers
+Sliding window
+Prefix sum
+Kadane’s algorithm (max subarray)
+
+Strings
+Almost same as arrays but watch out for:
+Frequency count (hash map)
+Palindrome check
+Anagram problems
+Substring window problems
+
+Linked List
+Must-know tricks:
+Fast & slow pointer
+Reverse a linked list
+Detect cycle
+Merge two sorted lists
+
+Stacks
+Use when you need last in first out
+Common use cases:
+Next greater element
+Valid parentheses
+Undo / backtracking logic
+
+Queues & Deque
+Used in BFS and sliding window problems
+Deque is powerful for max/min in window problems
+
+Hashing (very important)
+Use when you want O(1) lookup
+Common patterns:
+Two sum
+Frequency maps
+Index storage
+
+Recursion
+Base case is everything
+Think in terms of smaller subproblems
+Used heavily in trees and backtracking
+
+Trees
+Most asked topic
+Key traversals:
+Inorder
+Preorder
+Postorder
+Level order (BFS)
+
+Important concepts:
+Height & depth
+Diameter
+Lowest common ancestor
+
+Binary Search
+Not just on arrays
+Used on answer space too
+If question says “minimum” or “maximum possible”, think binary search
+
+Heaps
+Used when you need top k elements
+Priority queue is your friend
+
+Graphs
+Core algorithms:
+BFS & DFS
+Topological sort
+Cycle detection
+Dijkstra (shortest path)
+
+Dynamic Programming
+Most feared, but most rewarding
+Steps to think DP:
+Define state
+Transition
+Base case
+Optimize
+
+Common DP patterns:
+Knapsack
+Longest common subsequence
+Matrix DP
+1D DP (climbing stairs, house robber)
+
+Interview tip
+If you can explain your approach clearly, even partial solutions get accepted.
